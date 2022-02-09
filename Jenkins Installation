@@ -60,6 +60,7 @@ Get latest version of jenkins from https://pkg.jenkins.io/redhat-stable/
 1) yum -y install wget
 2) wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 3) rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+sudo amazon-linux-extras install epel -y
 4) yum -y install jenkins
 ```
 
